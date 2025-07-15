@@ -1,0 +1,32 @@
+{
+  "name": "bos_css_lib",
+  "version": "1.0.0",
+  "description": "A minimal and reusable CSS library for modern UI development.",
+  "main": "dist/bos_css_lib.min.css",
+  "scripts": {
+    "build": "postcss src/index.css -o dist/bos_css_lib.min.css",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bosprimigenious/bos_css_lib.git"
+  },
+  "keywords": [
+    "css",
+    "library",
+    "components",
+    "ui",
+    "styles"
+  ],
+  "author": "Zhang Hengji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bosprimigenious/bos_css_lib/issues"
+  },
+  "homepage": "https://github.com/bosprimigenious/bos_css_lib#readme",
+  "devDependencies": {
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0",
+    "cssnano": "^5.0.0"
+  }
+}

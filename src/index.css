@@ -1,0 +1,12 @@
+@import './buttons.css';
+@import './cards.css';
+@import './forms.css';
+
+/* 你还可以在这里写一些全局的基础样式或者工具类 */
+
+.bos-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
